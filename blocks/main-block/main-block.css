@@ -1,0 +1,13 @@
+.main-block {
+    background-color: #000000;
+    margin: 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1920px) {
+    .main-block {
+        display: flex;
+        margin: 36px 0 0 200px;
+        align-items: flex-start;
+        margin-bottom: 55px;
+    }
+}

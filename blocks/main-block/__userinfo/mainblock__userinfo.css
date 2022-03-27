@@ -1,0 +1,13 @@
+.main-block__userinfo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1920px) {
+    .main-block__userinfo {
+        flex-direction: column;
+    }
+}

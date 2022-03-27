@@ -1,0 +1,32 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+@media (min-width: 780px) and (max-width: 1000px) {
+    .places {
+        width: 760px;
+        flex-direction: row;  
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        gap: 7px;
+        
+    }
+}
+@media (min-width:1000px ) and (max-width: 1920px) {
+
+    .places {
+        width: 880px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 15px;
+    }
+}

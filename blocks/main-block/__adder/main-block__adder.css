@@ -1,0 +1,23 @@
+.main-block__adder {
+    width: 279px;
+    height: 50px;
+    background-color: #000000;
+    border: 2px solid #FFFFFF;
+    margin: 32px 0 15px 15px;
+    position: relative;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.main-block__adder:hover {
+    opacity: 0.5;
+    transition: .2s ease-in-out;
+}
+
+@media (min-width: 1024px) and (max-width: 1920px) {
+    .main-block__adder {
+        width: 150px;
+        height: 50px;
+        margin-left: 240px;
+    }
+}

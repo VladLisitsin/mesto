@@ -1,0 +1,30 @@
+.main-block__edit {
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 7px;
+    border: 1px solid white;
+    margin-left: 15px;
+    background: url(../../../images/Vector.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    opacity: 1;
+    background-position: 50%;
+    margin-top: 12px;
+}
+
+.main-block__edit:hover {
+    opacity: 0.5;
+    transition: .2s ease-in-out;
+}
+
+@media (min-width: 1024px) and (max-width: 1920px) {
+    .main-block__edit {
+        margin-left: 18px;
+        height: 24px;
+        width: 24px;
+        padding: 11px;
+        margin-top: 12px
+    }
+}

@@ -1,0 +1,7 @@
+.places__image {
+    min-height: 282px;
+    min-width: 282px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    object-fit: cover;
+}

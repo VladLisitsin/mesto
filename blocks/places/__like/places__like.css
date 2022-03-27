@@ -1,0 +1,17 @@
+.places__like {
+    background: url(../../../images/like320px.png);
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 24px;
+    border: 0;
+    cursor: pointer;
+    opacity: 1;
+}
+.places__like_active {
+    background: url(../../../images/Union.svg);
+}
+
+.places__like:hover {
+    opacity: 0.5;
+    transition:.2s ease-in-out;
+}

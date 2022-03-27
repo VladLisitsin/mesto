@@ -1,0 +1,19 @@
+.main-block__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1920px) {
+    .main-block__subtitle {
+        font-size: 18px;
+        line-height: 22px;
+        padding-right: 95px;
+    }
+}

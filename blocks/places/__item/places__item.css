@@ -1,0 +1,15 @@
+.places__item {
+    height: 361px;
+    width: 282px;
+    background-color: #FFFFFF;
+    margin: 20px 19px 0 19px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2%;
+}
+
+@media (min-width: 600px) and (max-width: 1920px) {
+    .places__item {
+        margin: 0;
+    }
+}

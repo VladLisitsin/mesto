@@ -1,0 +1,14 @@
+.main-block__image {
+    border-radius: 50%;
+    height: 122px;
+    width: 122px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin: 40px 100px 0 100px;
+}
+@media (min-width: 1024px) and (max-width: 1920px) {
+    .main-block__image {
+        margin: 0;
+    }
+}
