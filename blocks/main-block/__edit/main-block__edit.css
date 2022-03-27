@@ -10,7 +10,6 @@
     background-repeat: no-repeat;
     background-position: 50%;
     opacity: 1;
-    background-position: 50%;
     margin-top: 12px;
 }
 
@@ -25,6 +24,6 @@
         height: 24px;
         width: 24px;
         padding: 11px;
-        margin-top: 12px
+        margin-top: 12px;
     }
 }
