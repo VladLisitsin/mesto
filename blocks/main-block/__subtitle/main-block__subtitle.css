@@ -14,6 +14,6 @@
     .main-block__subtitle {
         font-size: 18px;
         line-height: 22px;
-        padding-right: 95px;
+        align-self: flex-start;
     }
 }

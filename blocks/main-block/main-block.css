@@ -1,13 +1,28 @@
 .main-block {
     background-color: #000000;
-    margin: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (min-width: 1024px) and (max-width: 1920px) {
+@media (min-width: 500px) and (max-width: 900px) {
+    .main-block {
+        max-width: 100%;
+    }
+}
+
+
+@media (min-width: 900px) and (max-width: 1920px) {
     .main-block {
         display: flex;
-        margin: 36px 0 0 200px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 36px auto 0 auto;
         align-items: flex-start;
         margin-bottom: 55px;
+        max-width: 880px;
     }
 }

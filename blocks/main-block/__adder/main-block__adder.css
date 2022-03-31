@@ -18,6 +18,6 @@
     .main-block__adder {
         width: 150px;
         height: 50px;
-        margin-left: 240px;
+        justify-self: flex-end;
     }
 }

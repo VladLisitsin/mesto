@@ -5,8 +5,9 @@
 }
 @media (min-width: 768px) and (max-width: 1920px) {
     .header__logo {
-        padding: 45px 0 0 200px;
+        padding: 45px 0 0 0;
         width: 142px;
         height: 33px;
+        align-self: flex-start;
     }
 }

@@ -5,12 +5,12 @@
     cursor: pointer;
     padding: 7px;
     border: 1px solid white;
-    margin-left: 15px;
-    background: url(../../../images/Vector.png);
+    background: url(../../../images/edit-con.svg);
     background-repeat: no-repeat;
     background-position: 50%;
     opacity: 1;
-    margin-top: 12px;
+    justify-self: center;
+    margin: 16px 0 0 10px;
 }
 
 .main-block__edit:hover {
@@ -20,7 +20,7 @@
 
 @media (min-width: 1024px) and (max-width: 1920px) {
     .main-block__edit {
-        margin-left: 18px;
+        margin: 16px 244px 0 12px;
         height: 24px;
         width: 24px;
         padding: 11px;

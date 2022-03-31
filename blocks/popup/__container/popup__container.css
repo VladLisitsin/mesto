@@ -3,6 +3,7 @@
     width: 466px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 @media (min-width: 310px) and (max-width: 500px) {

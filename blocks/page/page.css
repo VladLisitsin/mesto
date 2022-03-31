@@ -7,3 +7,11 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
 }
+
+
+
+@media (min-width: 1280px) and (max-width: 1920px) {
+    .page {
+        padding: 0 200px 0 200px;
+    }
+}
