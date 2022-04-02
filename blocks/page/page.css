@@ -8,10 +8,24 @@
     text-rendering: optimizeLegibility;
 }
 
-
-
-@media (min-width: 1280px) and (max-width: 1920px) {
+@media (min-width: 600px) {
     .page {
+        max-width: 880px;
+        padding: 0 100px 0 100px;
+        margin: 0 auto;
+    }
+}
+
+
+@media (min-width: 1080px) {
+    .page {
+        max-width: 880px;
         padding: 0 200px 0 200px;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1280px) {
+    .page {
+        max-width: 1280px;
     }
 }

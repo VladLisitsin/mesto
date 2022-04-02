@@ -1,15 +1,18 @@
 .main-block__userinfo {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 330px;
 }
 
-@media (min-width: 600px) and (max-width: 1920px) {
+
+@media (min-width: 1024px) {
     .main-block__userinfo {
         flex-direction: column;
         min-width: 380px;
-        padding-left: 26px;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 }

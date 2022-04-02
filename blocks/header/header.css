@@ -1,10 +1,12 @@
 .header {
-    height: 86px;
+    min-height: 86px;
     border-bottom: 1px solid #545454;
+    opacity: 0.7;
+
 }
 
 @media (min-width: 1024px) and (max-width: 1920px) {
     .header {
-        height: 119px;
+        min-height: 119px;
     }
 }

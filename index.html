@@ -11,8 +11,9 @@
 
 <body class="page">
 
+  <div class="main">
   <header class="header">
-    <img class="header__logo" src="images/logo.png" alt="логотип">
+    <img class="header__logo" src="images/logo.svg" alt="логотип">
   </header>
 
   <section class="main-block">
@@ -20,12 +21,11 @@
     <div class="main-block__userinfo">
       <div class="main-block__name">
         <h1 class="main-block__title">Жак-Ив Кусто</h1>
-        <button class="main-block__edit"></button>
+        <button class="main-block__edit" type="button"></button>
       </div>
       <p class="main-block__subtitle">Исследователь океана</p>
     </div>
-    <button class="main-block__adder">
-      <span class="main-block__adder-icon"></span>
+    <button class="main-block__adder" type="button">
     </button>
   </section>
 
@@ -69,28 +69,29 @@
       <img src="images/kaluga.jpg" alt="Карелия" class="places__image">
       <div class="places__info">
         <h2 class="places__name">Карелия</h2>
-        <button class="places__like"></button>
+        <button class="places__like" type="button"></button>
       </div>
     </div>
   </section>
-
-  <footer class="footer">
+</div>
+  
+<footer class="footer">
     <p class="footer__text">© 2022 Mesto Russia</p>
   </footer>
   
   <div class="popup">
     <div class="popup__container">
-      <button class="popup__close-button"></button>
-    <form action="#" class="popup__form">
-      <h3 class="popup__title">Редактировать профиль</h3>
-      <input type="text" class="popup__name" placeholder="Имя" value="Жак-Ив Кусто">
-      <input type="text" class="popup__profession" placeholder="Профессия" value="Исследователь океана">
-      <button class="popup__submit" type="submit">Сохранить</button>
-    </form>
+      <button class="popup__close-button" type="button"></button>
+      <form action="#" class="popup__form" name="person-form">
+        <h3 class="popup__title">Редактировать профиль</h3>
+        <input type="text" class="popup__item popup__item_type_name" name="form-name" placeholder="Имя" value="Жак-Ив Кусто">
+        <input type="text" class="popup__item popup__item_type_profession" name="form-profession" placeholder="Профессия" value="Исследователь океана">
+        <button class="popup__submit" type="submit">Сохранить</button>
+      </form>
     </div>
   </div>
   
-  <script src="scripts/script.js"></script>
+  <script src="scripts/index.js"></script>
 
 </body>
 

@@ -4,12 +4,13 @@
     width: 32px;
     box-sizing: border-box;
     border: none;
-    margin-left: auto;
-    margin-bottom: 8px;
     opacity: 1;
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: contain;
+    position: absolute;
+    top: -15px;
+    left: 440px;
 }
 
 .popup__close-button:hover {
@@ -17,10 +18,11 @@
     transition: .2s ease-in-out;
 }
 
-@media (min-width: 310px) and (max-width: 500px) {
+@media(max-width: 800px) {
     .popup__close-button {
         height: 21px;
         width: 21px;
         margin-bottom: 16px;
+        left: 260px;
     }
 }

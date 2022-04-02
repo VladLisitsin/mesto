@@ -14,11 +14,11 @@
 }
 
 
-@media (min-width: 900px) and (max-width: 1920px) {
+@media (min-width: 1024px) {
     .main-block {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         margin: 36px auto 0 auto;
         align-items: flex-start;
