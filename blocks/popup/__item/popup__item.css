@@ -3,11 +3,13 @@
     width: 100%;
     border: none;
     border-bottom: 1px solid rgba(0,0,0,0.2);
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    margin-bottom: 30px;
+    margin-bottom: 26px;
+}
+.popup__item:last-of-type {
+    margin-bottom: 45px;
 }

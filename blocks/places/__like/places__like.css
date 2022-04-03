@@ -8,9 +8,6 @@
     opacity: 1;
     transition:.2s ease-in-out;
 }
-.places__like_active {
-    background: url(../../../images/Union.svg);
-}
 
 .places__like:hover {
     opacity: 0.5;

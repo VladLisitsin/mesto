@@ -1,16 +1,17 @@
 .popup__container {
-    min-height: 370px;
-    max-width: 466px;
+    max-height: 330px;
+    max-width: 430px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
-    margin-top: 5px;
+    box-sizing: border-box;
+    margin-top: -15px;
 }
-
-@media (max-width: 800px) {
+@media (max-width:800px) {
     .popup__container {
-        min-width: 282px;
-        margin-top: 7px;
+        max-width: 282px;
+        max-height: 322px;
+        margin: 0;
     }
 }

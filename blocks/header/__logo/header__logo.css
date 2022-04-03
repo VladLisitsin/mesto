@@ -3,7 +3,7 @@
     height: 24px;
     padding: 28px 0 0 28px;
 }
-@media (min-width: 768px) and (max-width: 1920px) {
+@media (min-width: 700px)  {
     .header__logo {
         padding: 45px 0 0 0;
         width: 142px;
